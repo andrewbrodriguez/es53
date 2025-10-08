@@ -74,7 +74,7 @@ for ch = 1:numchannels,
                 pmax = 1.1*max(pdata);
                 pmin = 1.1*min(pdata);
 
-            ylim([pmin pmax]);
+            % ylim([pmin pmax]);
             
             if exist('com','var'),
                 % Comments
